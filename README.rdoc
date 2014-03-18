@@ -1,0 +1,4 @@
+This is an app for trying out nested resources in Rails.
+
+List has_many steps
+Steps belongs_to list

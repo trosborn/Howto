@@ -1,0 +1,15 @@
+<h1>Listing lists</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+
+  <% @lists.each do |list| %>
+    <tr>
+      <td><%= list.title %></td>
+      <td><%= list.text %></td>
+    </tr>
+  <% end %>
+</table>

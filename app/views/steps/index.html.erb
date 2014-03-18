@@ -1,0 +1,19 @@
+<div>
+
+    <h1><%= @step.title %></h1>
+
+
+
+        <% @steps.each do |f| %>
+          <li>
+            <div class="panel">
+              <p><%= f.title %></p>
+              <p><%= f.body %></p>
+            </div>
+          </li>
+        <% end %>
+
+
+
+  </div>
+</div>
